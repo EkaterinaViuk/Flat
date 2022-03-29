@@ -11,3 +11,4 @@ double.TryParse(Console.ReadLine(), out num);
 double ost = Math.Ceiling(flat/(num*floor)) - floor*num;
 double r = Math.Ceiling((flat - Math.Ceiling(flat / (floor * num)) * floor * num * ost) / num);
 Console.WriteLine($"Квартира находится в {Math.Ceiling(flat/(floor*num))} подъезде на {r} этаже");
+Console.WriteLine("Hello,World!");
